@@ -2,7 +2,7 @@
   "name": "tam-exercise-4",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tampub.github.io/tam-exercise-3",
+  "homepage": "http://tam-doan.github.io/tampub",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.2",
