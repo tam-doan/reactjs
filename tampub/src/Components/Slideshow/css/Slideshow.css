@@ -1,0 +1,18 @@
+.slideshow {
+    max-height: 1050px;
+    overflow: hidden;
+}
+
+.contact-wrap {
+    padding-top: 26px;
+    padding-bottom: 14px;
+    background-size: cover;
+    background-color: #e87700;
+    color: #fff;
+}
+
+.contact-wrap .alignright .wpb_wrapper {
+    display: inline-block;
+    float: right;
+    padding: 23px;
+}

@@ -1,0 +1,42 @@
+body {
+    font: 14px/25px sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #626262;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+}
+
+li {
+    line-height: 23px;
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+
+a, a:visited {
+    color: #0099ff;
+    text-decoration: none;
+    outline: 0;
+}
+
+.button.white, button.white, input[type="submit"].white, input[type="reset"].white, input[type="button"].white, .button.black:hover, button.black:hover, input[type="submit"].black:hover, input[type="reset"].black:hover, input[type="button"].black:hover {
+    background: #fff;
+    color: #000;
+}
+
+.button.bordered-bot, button.bordered-bot, input[type="submit"].bordered-bot, input[type="reset"].bordered-bot, input[type="button"].bordered-bot {
+    background: none;
+    border: 2px solid #dedede;
+    color: #363f46;
+    text-shadow: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 16px 19px 14px;
+}
+
+.button.white.bordered-bot, button.white.bordered-bot, input[type="submit"].white.bordered-bot, input[type="reset"].white.bordered-bot, input[type="button"].white.bordered-bot {
+    background: none;
+    border-color: #fff;
+    color: #fff;
+}

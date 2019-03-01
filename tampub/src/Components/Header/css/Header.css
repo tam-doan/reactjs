@@ -1,0 +1,102 @@
+.transparent-header-w.t-dark-w #wrap .top-bar {
+    background: #3b3e46;
+    min-height: 51px;
+}
+
+.top-links {
+    float: left;
+    color: #d8d8d8;
+    font-size: 13px;
+    line-height: 51px;
+    font-weight: 400;
+    padding-left: 11px;
+}
+
+.transparent-header-w.t-dark-w #header.w-header-type-10 {
+    width: 100%;
+    background: #fff;
+    padding-top: 0;
+}
+
+.logo-wrap .logo {
+    width: 240px;
+    height: 100px;
+    position: relative;
+}
+
+.logo-wrap .logo img {
+    max-height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.nav-wrap1, .nav-wrap2 {
+    height: 100px;
+    position: relative;
+    border-color: #f0f0f0;
+}
+
+#nav-wrap .container {
+    position: relative;
+    width: auto;
+}
+
+.nav-wrap1 #nav {
+    float: right;
+    margin: 0
+}
+
+#nav a {
+    display: block;
+    font-weight: 600;
+    color: #444;
+    outline: 0;
+    opacity: 1;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 15px;
+    letter-spacing: 0.3px;
+    line-height: 100px;
+    transition: background .15s ease-in-out;
+}
+
+#nav li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    display: block;
+    height: 100%;
+    vertical-align: middle;
+    position: static;
+}
+
+@media only screen and (min-width: 961px) {
+	.transparent-header-w.t-dark-w #wrap .top-bar * {
+	    color: #fff;
+	    text-shadow: 0 1px 0 rgba(0,0,0,0.18);
+	}
+
+	#nav {
+    	display: block !important;
+	}
+
+	.transparent-header-w.t-dark-w #header.horizontal-w:not(.w-header-type-11) #nav > li > a, .transparent-header-w.t-dark-w .woo-cart-header .header-cart span, .transparent-header-w.t-dark-w a.search-form-icon {
+	    color: #fff;
+	    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+	}
+
+	.transparent-header-w.t-dark-w #header.horizontal-w:not(.w-header-type-11) #nav > li > a, .transparent-header-w.t-dark-w .woo-cart-header .header-cart span, .transparent-header-w.t-dark-w a.search-form-icon {
+	    color: #000;
+	}		
+}
+
+@media only screen and (min-width: 1281px) {
+	#header > .container {
+	    width: 1246px;
+	}	
+}

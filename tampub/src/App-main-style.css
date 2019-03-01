@@ -1,0 +1,22 @@
+#wrap.colorskin-2 .icon-box14 a.magicmore:hover, #wrap.colorskin-2 .internalpadding form input[type="submit"], #wrap.colorskin-2 #bridge .navbar .nav > li > a:hover, #wrap.colorskin-2 #slide-6-layer-35, #wrap.colorskin-2 .transparent-header-w.t-dark-w, #wrap.colorskin-2 .top-bar .top-links a:hover, #wrap.colorskin-2 .transparent-header-w #header.horizontal-w #nav > li:hover > a, #wrap.colorskin-2 #nav li.current > a, #wrap.colorskin-2 #nav ul li:hover > a, #wrap.colorskin-2 .transparent-header-w.t-dark-w, #wrap.colorskin-2 #header.horizontal-w #nav > li:hover > a, #wrap.colorskin-2 .icon-box3:hover a.magicmore, .colorskin-2 .colorf .spl, .colorskin-2 .our-team4 .social-team a i:before {
+    color: #0093d0 !important;
+}
+
+.blox.dark *, .slides-content.dark * {
+    color: #fff;
+}
+
+.blox.dark a.button, .blox.dark a.button:hover {
+    color: #fff;
+}
+
+.blox.dark a.button.white, .slides-content.dark a.button.white {
+    color: #202020;
+    transition: all .3s ease;
+}
+
+.blox.dark a.button.white.bordered-bot, .slides-content.dark a.button.white.bordered-bot {
+    color: #fff;
+    background: none;
+    border-color: #fff;
+}
